@@ -1,6 +1,6 @@
 "use client"
 
-import { useRealtimeOrders, type Order } from "../Hooks/useRealtimeaorders"
+import { useRealtimeOrders, type Order } from "../Hooks/useRealtimeorders"
 import { formatDistanceToNow } from "date-fns"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 import { Badge } from "@/components/ui/badge"
