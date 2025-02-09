@@ -7,7 +7,7 @@ const stripe = new Stripe(
     // apiVersion: "2024-12-18.acacia"
 })
 
-export async function POST(req: NextApiRequest) {
+export async function POST() {
     try {
         const session = await stripe.checkout.sessions.create({
             payment_method_types: ["card"],
