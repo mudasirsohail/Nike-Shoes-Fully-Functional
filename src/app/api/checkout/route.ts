@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 import Stripe from "stripe";
 
 const stripe = new Stripe(
-    process.env.STRIPE_SECRET_KEY || "", {
+    process.env.STRIPE_SECRET_KEY || "sk_test_51Qo6rm2LLi2Z3MdZWsrRBTes4PTWOU3PP657k3jmCSBoxPEGCAb4Bzr7keVNzcmdqFOYk8LZN6Pr937SiNZ5kt9u00fB7yBEJ5", {
     // apiVersion: "2024-12-18.acacia"
 })
 
